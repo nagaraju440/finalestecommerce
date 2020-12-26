@@ -1,0 +1,169 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@mixin map($pt,$ml) {
+    padding-top: $pt;
+    margin-left: $ml;
+}
+.top{
+    background-color: rgb(26, 25, 25);
+    width: 100%;
+    height: 94px;
+    display: flex;
+    // position: absolute;
+    color:white;
+    .sline{
+        color:white;
+        font-size: 30px;
+        @include map(2%,7%)
+    }
+    .search{
+        width: 700px;
+        @include map(2%,7%)
+    }
+    .login{
+            color:white;
+            font-size: 20px;   
+            @include map(2%,7%)
+    }
+}
+  .NavLink {
+      color:rgb(228, 24, 24);
+    text-decoration: none;
+}
+.total{
+    text-align: center;
+    .wid{
+        width: 400px;
+        // margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+.pakka{
+    display:flex;   
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.center{
+    color: rgb(0, 110, 255);
+    text-align: center;
+}
+.modal{
+    width: 200px;
+    height:200px;
+
+}
+.forcard{
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}
+.forcard10{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+.forcardimage{
+    height:200px;
+    width:200px
+}
+.forcardimage10{
+    height:200px;
+    width:150px;
+    display: flex;
+    text-align: center;
+}
+
+.forcardbody{
+    height: 150px;
+}
+.overall{
+    // display: flex;
+    float: left;
+padding-top: 300px;
+margin-left: 10px;
+}
+.overall3{
+    // display: flex;
+    float: left;
+padding-top: 300px;
+
+margin-left: 10px;
+}
+.overall1{
+    margin-top: -250px;
+}
+.overall2{
+    float:left;
+    padding-top: 300px;
+margin-left: 10px;
+}
+.secen{
+    text-align: center;
+}
+.container1{
+    width:60%;
+    margin-left:0%;
+    float: left;
+}
+
+.pricebox{
+    border:2px solid ;
+    width: 400px;
+    float: left;
+    height:300px;
+    margin-top:100px;
+    position: fixed;
+    margin-left:800px;
+    text-align:center
+}
+
+.box1{
+    width: 70%;
+    color:white;
+    margin-top:30px;
+    border-radius:5%;
+}
+.blue{
+    font-size:30px;
+    background-color: rgb(117, 117, 243);
+    padding-left:20px;
+}
+.blue1{
+    background-color: whitesmoke;
+    height:400px;
+    text-align: center;
+    color:black;
+    padding-top:30px;
+}
+.blue2{
+    font-size:30px;
+    background-color: rgb(117, 117, 243);
+    // padding-left:20px;
+    // margin-left:50px
+}
+.topo{
+    margin-top:60px
+}
+.topo1{
+    padding-top:100px;
+}
+.blue3{
+    height:200px;
+    text-align: center;
+    color:black;
+    // margin-top:30px;
+    padding-top:50px;
+    background-color:whitesmoke;
+}
+// .d{
+//     float: left;
+// }
+.rig{
+    font-size:15px;
+    margin-left:300px;
+    color:rgb(94, 72, 72);
+   border:1px solid black
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.black{
+    background-color: black;
+    height: 30px;
+}
+.black1{
+    background-color: black;
+    margin-top: 1px;
+    
+    height: 300px;
+}
+/* .active{
+    text-decoration: none;
+    background-color: rgb(134, 134, 153);
+   position: absolute;
+    display: block;
+    top:30px;
+    width: 100%;
+    height:5px;
+    
+} */
+.navbar__link--active {
+    /* border-bottom: 3px solid #29b6f6;
+    background-color: blue; */
+   background-color: rgb(172, 23, 23);
+   height: 30px;
+   display: block;
+   
+  }
+.center{
+    text-align: center;
+    color:white;
+    display:block;
+    
+}
+.go{
+    color:red;
+    /* background-color: violet; */
+}
+.Link1{
+    color: white;
+    border-radius: 10px;
+    
+    
+}
+
+.Link1:hover{
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    display: block;
+    width: 100%;
+    height:30px;
+    font-size: 20px;
+    
+}
+.centeralaram{
+
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.alaramtime1{
+    color: white;
+    font-size: 40px;
+    display: inline;
+    
+}
+.alaramtime1:hover{
+    background-color: rgb(44, 41, 41);
+}
+.link2:hover{
+    text-decoration: none;
+    
+}
+.link2{
+    text-align: center;
+}
+.clocktime{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+}
+.timermid{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+}
+.inputwidth{
+    width:10%;
+}
+.buttoncenter{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 10%;
+}
+.stopcenter{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    
+}
+.buttoncenter1{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 10%;
+    margin-left: 30px;
+}
+
+.small{
+    font-size: 10px;margin-top: -10px;
+}
+.alnum{
+    width: 7%;
+    height: 40px;
+    font-size: 20px;
+    /* display: inline; */
+}
+.select{
+    margin-left: 30px;
+    font-size: 15px;
+   padding-top: 10px;
+}
+.setalaram{
+    font-size: 10px;
+    margin-left: 40px;
+}
+.on{
+    font-size: 30px;
+    margin-top: 30px;
+}
+   
