@@ -69,13 +69,13 @@ io.on('connection', (socket) => {
     socket.on("hii", y => {
         console.log(y, "y iss")
     })
-    fs.readFile('download.png', function (err, data) {
-        if (err) throw err;
-        // res.write(data);
-        console.log(typeof data)
-        // console.log(data.toString('base64'))
-        io.emit('image', data.toString('base64'))
-    });
+    // fs.readFile('download.png', function (err, data) {
+    //     if (err) throw err;
+    //     // res.write(data);
+    //     console.log(typeof data)
+    //     // console.log(data.toString('base64'))
+    //     io.emit('image', data.toString('base64'))
+    // });
     socket.on('groupmessage', (grpmessage) => {
         io.emit('groupmessage', { grpmessage })
         console.log(grpmessage)
