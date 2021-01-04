@@ -61,7 +61,7 @@
   },
   "scripts": {
     "start": "cd src/forbackened  && node back1.js",
-    "heroku-postbuild": "cd client && npm install && npm run build”",
+    "heroku-postbuild": " npm run build”",
     "test": "react-scripts test",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
