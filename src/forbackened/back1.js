@@ -18,9 +18,16 @@ var ss = require('socket.io-stream');
 var Schema = mongoose.Schema;
 var fs = require("fs");
 const { ExpressPeerServer } = require('peer');
+const path=require('path')
 const peer = ExpressPeerServer(http, {
     path: '/myapp'
 });
+app.use(express.static('../'));
+app.get('*', (req, res) => {
+    console.log("hiiii")
+    res.sendFile('index.html', {root: path.join(__dirname, '../')});
+});
+
 app.use('/peerjs', peer);
 
 // const data=null;
@@ -147,7 +154,7 @@ app.get('/gettingmessages', (req, res) => {
 // })
 
 app.get('/', (req, res) => {
-    console.log("hiiii")
+    // console.log("hiiii")
     res.send("hello")
 })
 var personschema = new Schema({
