@@ -60,8 +60,8 @@
     "wrtc": "^0.4.6"
   },
   "scripts": {
-    "start": "cd src/forbackened  && node back1.js",
-    "heroku-postbuild": " npm run build”",
+    "start": "react-scripts start ",
+    "heroku-postbuild": " npm install && npm run build",
     "test": "react-scripts test",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
