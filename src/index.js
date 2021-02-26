@@ -36,7 +36,7 @@ import Fake from './fake.js'
 // import {Provider, provider,connect} from 'react-redux'
 // import Allrouters from './ecommerce/allrouters'
 // import store1 from './ecommerce/redux'
-import * as serviceWorker from './serviceWorker';
+// import * as serviceWorker from './serviceWorker';
 class Car extends React.Component {
 
 
@@ -55,7 +55,8 @@ class Car extends React.Component {
             // <Exp/>
             // <Mern1/>
             //forchat     login
-            <Login />
+            // <Login />
+            <Fake/>
             //     <Provider store={store}>
             // <Timer/>
             //     </Provider>     
@@ -74,4 +75,4 @@ class Car extends React.Component {
 }
 
 ReactDOM.render(<Car />, document.getElementById('root'));
-serviceWorker.unregister();
+// serviceWorker.unregister();
